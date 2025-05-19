@@ -8,6 +8,7 @@ def reverse(self, x: int) -> int:
     t = abs(x)
     y = 0
     
+    
     while t > 0:
         num = t % 10
         y = y * 10 + num
